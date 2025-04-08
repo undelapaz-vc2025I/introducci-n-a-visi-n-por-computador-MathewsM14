@@ -65,7 +65,7 @@ def imagen_a_arreglo(img):
     np.ndarray: Arreglo de NumPy con los datos de la imagen.
     """
     # Convertir la imagen a un arreglo de NumPy
-    arreglo = imagen_a_arreglo(img) # Insertar código aquí
+    arreglo = np.array(img) # Insertar código aquí
     return arreglo
 
 def estadisticas_intensidad(arreglo_img):
